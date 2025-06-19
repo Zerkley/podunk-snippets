@@ -1,0 +1,48 @@
+{
+    "Stateless Widget": {
+      "prefix": "statelessW",
+      "body": [
+        "import 'package:flutter/material.dart';",
+        "class ${1:name} extends StatelessWidget {",
+        "  const ${1:name}({super.key});\n",
+        "  @override",
+        "  Widget build(BuildContext context) {",
+        "    return Container(",
+        "      child: ${2:null},",
+        "    );",
+        "  }",
+        "}"
+      ],
+      "description": "Create a Stateless widget"
+    },
+    "Stateful Widget": {
+      "prefix": "statefulW",
+      "body": [
+        "import 'package:flutter/material.dart';",
+        "class ${1:name} extends StatefulWidget {",
+        "  ${1:name}({super.key});\n",
+        "  @override",
+        "  State<${1:WidgetName}> createState() => _${1:WidgetName}State();",
+        "}\n",
+        "class _${1:index}State extends State<${1:index}> {",
+        "  @override",
+        "  Widget build(BuildContext context) {",
+        "    return Container(",
+        "       child: ${2:null},",
+        "    );",
+        "  }",
+        "}"
+      ],
+      "description": "Create a Stateful widget"
+    },
+    "Build Method": {
+      "prefix": "build",
+      "body": [
+        "@override",
+        "Widget build(BuildContext context) {",
+        "  return ${0:};",
+        "}"
+      ],
+      "description": "Describes the part of the user interface represented by this widget."
+    }
+  }
