@@ -1,6 +1,6 @@
 {
     "Stateless Widget": {
-      "prefix": "statelessW",
+      "prefix": "slessW",
       "body": [
         "import 'package:flutter/material.dart';",
         "class ${1:name} extends StatelessWidget {",
@@ -16,7 +16,7 @@
       "description": "Create a Stateless widget"
     },
     "Stateful Widget": {
-      "prefix": "statefulW",
+      "prefix": "sfulW",
       "body": [
         "import 'package:flutter/material.dart';",
         "class ${1:name} extends StatefulWidget {",

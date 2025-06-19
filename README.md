@@ -4,12 +4,12 @@ This is a library of snippets for Flutter and Riverpod, following Hexagonal Arch
 
 ## Snippets list
 
-| Shortcut     | Expanded         | Description                                             |
-| ------------ | ---------------- | ------------------------------------------------------- |
-| `statelessW` | Stateless Widget | Creates a Stateless widget with import of material.dart |
-| `statefulW`  | Stateful Widget  | Creates a Stateful widget with import of material.dart  |
-| `build`      | Build Method     | Creates the Widget build method with @override          |
-| `TBD`        | TBD              | TBD                                                     |
+| Shortcut | Expanded         | Description                                             |
+| -------- | ---------------- | ------------------------------------------------------- |
+| `slessW` | Stateless Widget | Creates a Stateless widget with import of material.dart |
+| `sfulW`  | Stateful Widget  | Creates a Stateful widget with import of material.dart  |
+| `build`  | Build Method     | Creates the Widget build method with @override          |
+| `TBD`    | TBD              | TBD                                                     |
 
 ## Requirements
 
