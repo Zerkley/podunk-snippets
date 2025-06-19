@@ -3,6 +3,7 @@
   "displayName": "podunk-snippets",
   "description": "Flutter and Riverpod snippets",
   "version": "0.0.1",
+  "icon":"assets/icon.png",
   "engines": {
     "vscode": "^1.101.0"
   },
